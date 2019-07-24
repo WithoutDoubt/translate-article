@@ -1,7 +1,11 @@
 # translate-article
  some article about speech article
 
+<font color=red>  SCORES =   </font>
 
+- [ ] translation
+- [ ] Anki
+- [ ] algorithm
 
  **some commands**
 
@@ -17,4 +21,5 @@
   git init
   git add .
   git commit -m "remarks"
+  git push origin master
   ```
