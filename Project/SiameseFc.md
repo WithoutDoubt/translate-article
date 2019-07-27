@@ -21,19 +21,24 @@ l(y,v) = log(1 + exp(-yp) )\\
 L(y,v) = \frac{1}{|D|}\sum_{u\in D} l(y[u],v[u])
 $$
 
- 
-
 $u \in D$ 是得分图谱的位置，$v[u]$是这个位置做相关操作后的值$ v = f(z,x;\theta)$ , $y[u]$ 是这个位置的标签，取{+1,-1} 
 
-​	
-$$
-\begin{equation}
-y[u]=\left\{
-\begin{aligned}
-+1   && if k||u-c|| \ \cos(t) \\
-y & = & \sin(t) \\
-z & = & \frac xy
-\end{aligned}
-\right.
-\end{equation}
-$$
+​                                                             $y[u] = +1 \quad if \quad k ||u-c||\le R $ 
+
+​                                                            $y[u] = -1 \quad otherwise$
+
+k 是网络的步长，当小于图像中心一定距离是，取正标签
+
+最小化这个$L(y , v)$ ，通过随机梯度下降法，求出网络的参数 $\theta$
+
+训练集是ILSVRC2015，为了更好的适应对训练集做了一些处理，剔除了一些占整幅画面太大或太小的目标，还剔除了一下距离图片边缘太近的目标。处理后的数据集包含2820个视频，843371个目标。
+
+训练的图像对（pairs）包含两帧的图像，最多相隔T帧，因为是全卷积，学习倾向在图像中心，所以训练的目标都在图像的中心，如下图：
+
+![è¿éåå¾çæè¿°](https://img-blog.csdn.net/20180821121527765?watermark/2/text/aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L2Z6cDk1/font/5a6L5L2T/fontsize/400/fill/I0JBQkFCMA==/dissolve/70)
+
+对图像的尺寸做了归一化，不改变图像的纵横比，多出的部分用图像的RGB均值填充。
+网络结构中没有padding
+
+[地址](https://blog.csdn.net/fzp95/article/details/81867190)
+
