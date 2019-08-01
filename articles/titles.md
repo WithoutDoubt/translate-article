@@ -3,6 +3,8 @@
 - [ ] **Direct speech-to-speech translation with a sequence-to-sequence model**
 - [ ] [FastSpeech](https://github.com/xcmyz/FastSpeech)
 - [ ] A Regression Approach to Speech Enhancement Based on Deep Neural Networks
+- [x] R-TRANSFORMER:   RECURRENT NEURAL NETWORK ENHANCED TRANSFORMER 【】
+- [ ] Transformer
 
 #### Tracking
 

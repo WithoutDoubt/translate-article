@@ -141,7 +141,13 @@ numpy.array (object , dtype = None ,copy = True , order = None , subok = False, 
   numpy.reshape(arr, newshape, order='C')
   # newshape:新的形状
   # order  Column  行  F  列
+  ```
+
+  ```python
+  numpy.transpose(arr , axes)
   
+  np.transpose(a) == a.T   # 示例
+  # 转置
   ```
 
 - numpy位运算
