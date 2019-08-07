@@ -5,6 +5,9 @@
 - [ ] A Regression Approach to Speech Enhancement Based on Deep Neural Networks
 - [x] R-TRANSFORMER:   RECURRENT NEURAL NETWORK ENHANCED TRANSFORMER 【】
 - [ ] Transformer
+- [ ] TACOTRON
+  - [ ] Generating Spectral parameters with neural attention （TACOTRON引用的）
+- [ ] 
 
 #### Tracking
 

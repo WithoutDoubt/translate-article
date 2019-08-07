@@ -26,6 +26,3 @@
 
 [book](<https://ebook.lorefree.com/>)
 
-$$
-\theta
-$$
