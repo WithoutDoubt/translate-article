@@ -26,3 +26,4 @@
 
 [book](<https://ebook.lorefree.com/>)
 
+[latex](http://www.mohu.org/info/symbols/symbols.html)
