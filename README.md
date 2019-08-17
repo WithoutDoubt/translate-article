@@ -27,3 +27,8 @@
 [book](<https://ebook.lorefree.com/>)
 
 [latex](http://www.mohu.org/info/symbols/symbols.html)
+
+[pycharm](<https://www.cnblogs.com/du-hong/p/10244304.html>)
+
+[pytorch-list的集合](https://github.com/bharathgs/Awesome-pytorch-list)
+
