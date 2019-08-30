@@ -24,6 +24,15 @@
   git push origin master
   ```
 
+- 目标
+  - [ ] 雅思
+  - [ ] leetcode
+  - [ ] 四门课
+  - [ ] python
+  - [ ] 论文
+
+
+
 [book](<https://ebook.lorefree.com/>)
 
 [latex](http://www.mohu.org/info/symbols/symbols.html)

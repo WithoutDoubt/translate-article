@@ -1,6 +1,7 @@
 **常见库**
 
 - [ ] numpy
+- [ ] pandas  pandas 是基于[NumPy](https://baike.baidu.com/item/NumPy/5678437) 的一种工具，该工具是为了解决数据分析任务而创建的，主要是时间序列。
 - [ ] Scipy
 - [ ] tqdm  进度条美化的基本方法
 
